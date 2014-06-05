@@ -19,7 +19,7 @@ import cgi
 import re
 
 form="""
-<h1>Enter some text into ROT13: MEOW</h1>
+<h1>Enter some text into ROT13: MEOW</h1> WOOF
 <form method="post">
 	<textarea name="text" style="height:100px; width:400px;">%(translation)s</textarea>
 	<br>
